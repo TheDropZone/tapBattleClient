@@ -1,29 +1,61 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <v-app style="overflow: hidden;">
+        <transition  
+            name="fade" 
+            class="Transition">
+            <router-view name="Main" />
+        </transition>
+        
+    </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+<script lang="ts">
+    import Vue from 'vue';
+    import { Component } from 'vue-property-decorator';
+    import HelloWorld from '@/components/HelloWorld.vue';
+   
+    
+
+@Component({
+    components: {
+        "HelloWorld": HelloWorld,
+    },
+})
+export default class App extends Vue {
+    isInit = false;
+    isSignIn = false;
+
+    created() {
+        //@ts-ignore
+        //this.$store.commit("signIn", this.$gAuth);
     }
-  }
 }
+
+</script>
+
+<style>
+    .Transition{
+        height: 100%;
+    }
+    .fade-enter-active,
+    .fade-leave-active {
+      transition-duration: 400ms;
+      transition-property: all;
+      transition-timing-function: ease;
+    }
+
+    .fade-enter {
+        opacity:0;
+        transform: scale(2);
+    }
+    .fade-enter-to{
+        
+    }
+    .fade-leave{
+    }
+    .fade-leave-active {
+      opacity: 0
+    }
+
+
 </style>
