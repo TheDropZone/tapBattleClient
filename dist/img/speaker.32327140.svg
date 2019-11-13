@@ -1,0 +1,456 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="227.605" height="118.204" viewBox="0 0 227.605 118.204">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_23" data-name="Path 23" d="M10,0H192c14,0,20.438,34.269,20.438,57.769S206,114,192,114H10c-17,0-20.524-32.971-20.524-56.471S-6.431,0,10,0C10.116-.04,9.575,0,10,0Z" transform="translate(79 134)" fill="#adc4a0"/>
+    </clipPath>
+  </defs>
+  <g id="Group_37" data-name="Group 37" transform="translate(-66.155 -131.889)">
+    <g id="Path_24" data-name="Path 24" transform="translate(76.678 131.907)" fill="none">
+      <path d="M10.427,0h185.79c5.045,0,9.128,4.427,12.426,11.5,5.687,12.191,8.438,32.627,8.438,48.389,0,24.363-6.572,58.3-20.863,58.3H10.427c-17.354,0-20.951-34.181-20.951-58.544S-6.346,0,10.427,0C10.546-.041,9.993,0,10.427,0Z" stroke="none"/>
+      <path d="M 10.42742919921875 3.000648498535156 C 7.433059692382813 3.000648498535156 4.834243774414063 4.533584594726563 2.48248291015625 7.687019348144531 C 0.140960693359375 10.82673645019531 -1.8509521484375 15.45823669433594 -3.437973022460938 21.45283508300781 C -4.854202270507813 26.8023681640625 -5.925735473632813 33.15508270263672 -6.622787475585938 40.33454895019531 C -7.21209716796875 46.40430450439453 -7.523605346679688 53.08055114746094 -7.523605346679688 59.64155197143555 C -7.523605346679688 70.14786529541016 -6.852569580078125 85.20658874511719 -3.65576171875 97.28192901611328 C -2.11297607421875 103.1095199584961 -0.141448974609375 107.5994262695313 2.204116821289063 110.6268997192383 C 4.580764770507813 113.6945495605469 7.270645141601563 115.1857681274414 10.42742919921875 115.1857681274414 L 196.2178955078125 115.1857681274414 C 197.3917694091797 115.1857681274414 198.5038909912109 114.8444290161133 199.6178283691406 114.1422729492188 C 200.7999877929688 113.397087097168 201.9689636230469 112.2466430664063 203.0922698974609 110.7228927612305 C 205.3768920898438 107.6238632202148 207.409423828125 103.1139907836914 209.1333312988281 97.31855010986328 C 212.2314605712891 86.90348815917969 214.0810852050781 72.91149139404297 214.0810852050781 59.88999176025391 C 214.0810852050781 51.85617828369141 213.3539581298828 42.95889282226563 212.0336456298828 34.83714294433594 C 210.5690155029297 25.82752227783203 208.4565887451172 18.19645690917969 205.9244842529297 12.76836395263672 C 204.3708953857422 9.436149597167969 202.7150573730469 6.909049987792969 201.0029296875 5.257240295410156 C 199.4290161132813 3.738800048828125 197.8638305664063 3.000648498535156 196.2178955078125 3.000648498535156 L 10.42742919921875 3.000648498535156 M 10.3836669921875 -0.0177459716796875 C 10.43190002441406 -0.01773834228515625 10.46696472167969 -0.01314544677734375 10.42742919921875 0.00064849853515625 C 10.13798522949219 0.00064849853515625 10.28718566894531 -0.0177459716796875 10.3836669921875 -0.0177459716796875 Z M 10.42742919921875 0.00064849853515625 L 196.2178955078125 0.00064849853515625 C 201.2628021240234 0.00064849853515625 205.3457641601563 4.42755126953125 208.6434936523438 11.50067901611328 C 214.3301391601563 23.69123840332031 217.0810852050781 44.12727355957031 217.0810852050781 59.88999176025391 C 217.0810852050781 84.25270843505859 210.5094604492188 118.1857681274414 196.2178955078125 118.1857681274414 L 10.42742919921875 118.1857681274414 C -6.9266357421875 118.1857681274414 -10.52360534667969 84.00430297851563 -10.52360534667969 59.64155197143555 C -10.52360534667969 35.27883148193359 -6.3458251953125 0.00064849853515625 10.42742919921875 0.00064849853515625 Z" stroke="none" fill="#76a197"/>
+    </g>
+    <g id="Group_34" data-name="Group 34">
+      <path id="Path_21" data-name="Path 21" d="M10,0H192c14,0,20.438,34.269,20.438,57.769S206,114,192,114H10c-17,0-20.524-32.971-20.524-56.471S-6.431,0,10,0C10.116-.04,9.575,0,10,0Z" transform="translate(79 134)" fill="#adc4a0"/>
+      <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+        <g id="Group_33" data-name="Group 33" transform="translate(12 -21)" opacity="0.75">
+          <g id="Group_32" data-name="Group 32">
+            <g id="Group_30" data-name="Group 30">
+              <circle id="Ellipse_33" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-3" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-4" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-5" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-6" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-7" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-8" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-9" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-10" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-11" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-12" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-13" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-14" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-15" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-16" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-17" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-18" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-19" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-20" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-21" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-22" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-23" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-24" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-25" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-26" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-27" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-28" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-29" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-30" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-31" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-32" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-33" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-34" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-35" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-36" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-37" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-38" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-39" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-40" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-41" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-42" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-2" data-name="Group 32" transform="translate(0 15)">
+            <g id="Group_30-2" data-name="Group 30">
+              <circle id="Ellipse_33-43" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-44" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-45" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-46" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-47" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-48" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-49" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-50" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-51" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-52" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-53" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-54" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-55" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-56" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-57" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-58" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-59" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-60" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-61" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-62" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-63" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-2" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-64" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-65" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-66" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-67" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-68" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-69" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-70" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-71" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-72" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-73" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-74" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-75" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-76" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-77" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-78" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-79" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-80" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-81" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-82" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-83" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-84" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-3" data-name="Group 32" transform="translate(0 30)">
+            <g id="Group_30-3" data-name="Group 30">
+              <circle id="Ellipse_33-85" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-86" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-87" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-88" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-89" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-90" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-91" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-92" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-93" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-94" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-95" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-96" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-97" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-98" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-99" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-100" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-101" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-102" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-103" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-104" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-105" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-3" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-106" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-107" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-108" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-109" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-110" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-111" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-112" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-113" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-114" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-115" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-116" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-117" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-118" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-119" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-120" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-121" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-122" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-123" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-124" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-125" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-126" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-4" data-name="Group 32" transform="translate(0 45)">
+            <g id="Group_30-4" data-name="Group 30">
+              <circle id="Ellipse_33-127" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-128" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-129" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-130" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-131" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-132" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-133" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-134" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-135" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-136" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-137" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-138" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-139" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-140" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-141" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-142" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-143" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-144" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-145" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-146" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-147" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-4" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-148" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-149" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-150" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-151" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-152" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-153" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-154" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-155" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-156" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-157" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-158" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-159" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-160" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-161" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-162" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-163" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-164" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-165" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-166" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-167" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-168" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-5" data-name="Group 32" transform="translate(0 60)">
+            <g id="Group_30-5" data-name="Group 30">
+              <circle id="Ellipse_33-169" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-170" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-171" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-172" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-173" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-174" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-175" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-176" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-177" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-178" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-179" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-180" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-181" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-182" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-183" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-184" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-185" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-186" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-187" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-188" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-189" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-5" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-190" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-191" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-192" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-193" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-194" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-195" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-196" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-197" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-198" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-199" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-200" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-201" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-202" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-203" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-204" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-205" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-206" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-207" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-208" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-209" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-210" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-6" data-name="Group 32" transform="translate(0 75)">
+            <g id="Group_30-6" data-name="Group 30">
+              <circle id="Ellipse_33-211" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-212" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-213" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-214" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-215" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-216" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-217" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-218" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-219" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-220" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-221" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-222" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-223" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-224" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-225" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-226" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-227" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-228" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-229" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-230" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-231" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-6" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-232" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-233" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-234" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-235" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-236" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-237" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-238" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-239" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-240" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-241" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-242" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-243" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-244" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-245" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-246" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-247" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-248" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-249" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-250" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-251" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-252" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-7" data-name="Group 32" transform="translate(0 90)">
+            <g id="Group_30-7" data-name="Group 30">
+              <circle id="Ellipse_33-253" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-254" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-255" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-256" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-257" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-258" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-259" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-260" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-261" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-262" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-263" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-264" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-265" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-266" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-267" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-268" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-269" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-270" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-271" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-272" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-273" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-7" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-274" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-275" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-276" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-277" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-278" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-279" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-280" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-281" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-282" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-283" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-284" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-285" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-286" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-287" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-288" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-289" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-290" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-291" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-292" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-293" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-294" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-8" data-name="Group 32" transform="translate(0 105)">
+            <g id="Group_30-8" data-name="Group 30">
+              <circle id="Ellipse_33-295" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-296" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-297" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-298" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-299" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-300" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-301" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-302" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-303" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-304" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-305" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-306" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-307" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-308" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-309" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-310" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-311" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-312" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-313" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-314" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-315" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-8" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-316" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-317" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-318" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-319" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-320" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-321" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-322" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-323" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-324" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-325" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-326" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-327" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-328" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-329" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-330" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-331" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-332" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-333" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-334" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-335" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-336" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+          <g id="Group_32-9" data-name="Group 32" transform="translate(0 120)">
+            <g id="Group_30-9" data-name="Group 30">
+              <circle id="Ellipse_33-337" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-338" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-339" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-340" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-341" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-342" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-343" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-344" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-345" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-346" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-347" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-348" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-349" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-350" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-351" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-352" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-353" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-354" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-355" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-356" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-357" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+            <g id="Group_31-9" data-name="Group 31" transform="translate(6 7)">
+              <circle id="Ellipse_33-358" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(43 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-359" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(55 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-360" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(67 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-361" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(79 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-362" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(91 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-363" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(103 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-364" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(115 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-365" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(127 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-366" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(139 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-367" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(151 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-368" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(163 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-369" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(175 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-370" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(187 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-371" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(199 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-372" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(211 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-373" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(223 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-374" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(235 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-375" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(247 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-376" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(259 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-377" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(271 146)" fill="#87997d"/>
+              <circle id="Ellipse_33-378" data-name="Ellipse 33" cx="2.5" cy="2.5" r="2.5" transform="translate(283 146)" fill="#87997d"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Path_22" data-name="Path 22" transform="translate(79 134)" fill="none">
+        <path d="M10,0H192c14,0,20.438,34.269,20.438,57.769S206,114,192,114H10c-17,0-20.524-32.971-20.524-56.471S-6.431,0,10,0C10.116-.04,9.575,0,10,0Z" stroke="none"/>
+        <path d="M 10 3.000007629394531 C 7.078018188476563 3.000007629394531 4.543899536132813 4.470474243164063 2.252838134765625 7.495475769042969 C -0.0316925048828125 10.51187896728516 -1.976104736328125 14.96491241455078 -3.526321411132813 20.73088073730469 C -4.911605834960938 25.88331604003906 -5.959823608398438 32.00316619873047 -6.641876220703125 38.92034912109375 C -7.21868896484375 44.77037811279297 -7.523605346679688 51.20513153076172 -7.523605346679688 57.5289421081543 C -7.523605346679688 67.65422058105469 -6.86712646484375 82.16572570800781 -3.739700317382813 93.79806518554688 C -2.23297119140625 99.4022216796875 -0.3089141845703125 103.7181625366211 1.978988647460938 106.6260375976563 C 4.294769287109375 109.5692596435547 6.91845703125 111.0000076293945 10 111.0000076293945 L 192 111.0000076293945 C 193.1456146240234 111.0000076293945 194.2301483154297 110.6725082397461 195.3155822753906 109.9987564086914 C 196.4661560058594 109.2845993041992 197.6041870117188 108.1816635131836 198.6980895996094 106.7205657958984 C 200.9279022216797 103.7422256469727 202.9125518798828 99.40494537353516 204.596923828125 93.8292236328125 C 207.6279602050781 83.79582214355469 209.4375305175781 70.31519317626953 209.4375305175781 57.76856994628906 C 209.4375305175781 51.85094451904297 209.022216796875 45.43132019042969 208.2364959716797 39.20369720458984 C 207.3936157226563 32.52291107177734 206.1323394775391 26.19797515869141 204.5890197753906 20.91269683837891 C 202.893798828125 15.10725402832031 200.9001159667969 10.58522796630859 198.6632995605469 7.472221374511719 C 197.5621490478516 5.939727783203125 196.4189605712891 4.783447265625 195.2655181884766 4.035507202148438 C 194.1909332275391 3.338722229003906 193.1227722167969 3.000007629394531 192 3.000007629394531 L 10 3.000007629394531 M 9.957122802734375 -0.0177459716796875 C 10.00436401367188 -0.0177459716796875 10.03872680664063 -0.0133056640625 10 7.62939453125e-06 C 9.716445922851563 7.62939453125e-06 9.86260986328125 -0.0177459716796875 9.957122802734375 -0.0177459716796875 Z M 10 7.62939453125e-06 L 192 7.62939453125e-06 C 206 7.62939453125e-06 212.4375305175781 34.26856994628906 212.4375305175781 57.76856994628906 C 212.4375305175781 81.26856994628906 206 114.0000076293945 192 114.0000076293945 L 10 114.0000076293945 C -7 114.0000076293945 -10.52360534667969 81.02894592285156 -10.52360534667969 57.5289421081543 C -10.52360534667969 34.02894592285156 -6.4310302734375 7.62939453125e-06 10 7.62939453125e-06 Z" stroke="none" fill="#425454"/>
+      </g>
+    </g>
+  </g>
+</svg>
