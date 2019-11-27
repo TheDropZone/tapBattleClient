@@ -37,6 +37,10 @@ export default class App extends Vue {
             if (this.$store.state.serverStatus == false) {
                 console.log("Sending to error page");
                 this.$router.push("error");
+            }else{
+                if(this.$router.currentRoute.name == "error"){
+                    this.$router.push("/");
+                }
             }
         }
 }

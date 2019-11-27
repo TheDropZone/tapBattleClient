@@ -189,10 +189,12 @@ function registerSocket(state,commit){
         contentType: "application/json",
         logLevel: 'debug',
         enableProtocol: true,
+        reconnectInterval: 5000,
+        maxReconnectOnClose: 10000000000,
         readResponsesHeaders: false,
         enableXDR: true,
         transport: 'websocket',
-        fallbackTransport: 'long-polling',
+        fallbackTransport: 'websocket',
     };
     //@ts-ignore
     request.onOpen = function (response) {
@@ -202,9 +204,11 @@ function registerSocket(state,commit){
             messageType: "REGISTER",
             battle: null
         };
-        console.log(userMessage);
         subSocket.push(JSON.stringify(userMessage));
         commit("setServerStatus", true);
+
+        console.log(socket);
+        console.log(subSocket);
     };
     //@ts-ignore
     request.onMessage = function (response) {
@@ -222,16 +226,31 @@ function registerSocket(state,commit){
     }
     //@ts-ignore
     request.onReconnect = function(response){
-      console.log("reconnecting");
     }
-      //@ts-ignore
-    request.onError = function(response){
-      commit("setServerStatus", false);
-      console.log("registerSocket: Lost Connection: Trying again in 5 seconds");
-      setTimeout(function(){registerSocket(state,commit);},5000);
+    //@ts-ignore
+    request.onReopen = function(response){
+        var userMessage = {
+            user: state.user,
+            message: "",
+            messageType: "REGISTER",
+            battle: null
+        };
+        subSocket.push(JSON.stringify(userMessage));
+        commit("setServerStatus", true);
+    }
+
+    //@ts-ignore
+    request.onRec = function(response){
+    }
+
+    //@ts-ignore
+    request.onClose = function(response){
+        
+        commit("setServerStatus", false);
+        console.log("registerSocket: Lost Connection: Trying again in 5 seconds");
     }
 
     subSocket = socket.subscribe(request);
-
+    
     commit("setSocket", subSocket);
 }
