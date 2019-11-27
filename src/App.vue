@@ -27,7 +27,9 @@ export default class App extends Vue {
 
     created() {
         //@ts-ignore
-        //this.$store.commit("signIn", this.$gAuth);
+        if(window.webpackHotUpdate){
+            this.$store.commit("setServer","://localhost:5000");
+        }
     }
 
     @Watch('$store.state.serverStatus', { immediate: false, deep: true })

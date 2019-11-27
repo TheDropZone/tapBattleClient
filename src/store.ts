@@ -14,8 +14,7 @@ export default new Vuex.Store({
         socket: null,
         user: null,
         oponent: null,
-        //server: "://tapbattledeploy-env.vfkyw9rmik.us-east-1.elasticbeanstalk.com",
-        server: "://localhost:5000",
+        server: "://tapbattledeploy-env.vfkyw9rmik.us-east-1.elasticbeanstalk.com",
         battle: null,
         gameLength: -1,
         userAccess: null,
@@ -71,7 +70,10 @@ export default new Vuex.Store({
       },
       setServerStatus(state, status) {
         Vue.set(state, "serverStatus", status);
-    }
+      },   
+      setServer(state, server) {
+        Vue.set(state, "server", server);
+      } 
   },
   actions: {
       battleTap({ commit, dispatch, state }) {
