@@ -14,10 +14,12 @@ export default new Vuex.Store({
         socket: null,
         user: null,
         oponent: null,
-        server: "://tapbattledeploy-env.vfkyw9rmik.us-east-1.elasticbeanstalk.com",
+        //server: "://tapbattledeploy-env.vfkyw9rmik.us-east-1.elasticbeanstalk.com",
+        server: "://localhost:5000",
         battle: null,
         gameLength: -1,
-        userAccess: null
+        userAccess: null,
+        serverStatus: true
   },
   mutations: {
       startBattle(state) {
@@ -66,7 +68,10 @@ export default new Vuex.Store({
       },
       setUser(state, user) {
           Vue.set(state, "user", user);
-      }
+      },
+      setServerStatus(state, status) {
+        Vue.set(state, "serverStatus", status);
+    }
   },
   actions: {
       battleTap({ commit, dispatch, state }) {
@@ -80,8 +85,6 @@ export default new Vuex.Store({
       },
       signIn({ commit, dispatch, state }, auth) {
           return new Promise((reject, resolve) => {
-              var isInit = false;
-              var isSignIn = false;
 
               var userAccess = Vu.$cookies.get("Tap-Battle-Cookie-Account");
               console.log(userAccess);
@@ -90,42 +93,51 @@ export default new Vuex.Store({
               }
 
               if (state.userAccess == null) {
-                  let checkGauthLoad = setInterval(function () {
-                      //@ts-ignore
-                      isInit = auth.isInit;
-                      //@ts-ignore
-                      isSignIn = auth.isAuthorized;
-                      if (isInit) {
-                          clearInterval(checkGauthLoad);
-                          //@ts-ignore
-                          auth.signIn()
-                              .then(GoogleUser => {
-                                  var access = { token: GoogleUser.Zi.access_token, username: GoogleUser.w3.ig };
-                                  commit("setUserAccess", access);
-                                  dispatch("getUser").then(t => {
-                                      resolve(t);
-                                  }).catch(error => {
-                                      resolve(error);
-                                  });
-                              });
-                          
-                      }
-                  }, 1000);
+                  signInWithGoogle(auth,commit)
+                    .then(() => {
+                        dispatch("getUser").then(t => {
+                            console.log("No Cookie: Google sign In: getUser" + t);
+                            resolve(t);
+                        }).catch(error => {
+                            console.log("No Cookie: Google sign In: getUser " + error);
+                            reject(new Error("User Sign In Failed"));
+                        })
+                    })
+                    .catch(error => {
+                        console.log("No Cookie: Google sign In: " + error);
+                        reject(new Error("Google Sign In Failed"));
+                    });
               } else {
-                  dispatch("getUser").then(t => {
-                      resolve(t);
-                  }).catch(error => {
-                      resolve(error);
-                  });
+                  dispatch("getUser")
+                    .then(t => {
+                            console.log("Cookie: Google sign In: " + t);
+                            resolve(t);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                        if(error instanceof Error){
+                            console.log("Cookie: Google sign In: " + error);
+                            console.log(error);
+                            signInWithGoogle(auth,commit).then(() => {
+                                dispatch("getUser").then(t => {
+                                    console.log("Cookie: Failed: Google Sign in: " + t);
+                                    resolve(t);
+                                }).catch(error => {
+                                    console.log("Cookie: Failed: Google Sign in: " + error);
+                                    reject(new Error("User Sign In Failed"));
+                                });
+                            });
+                        }
+                    });
               }
           });
       },
       getUser({ commit, dispatch, state }) {
-          return new Promise((reject, resolve) => {
+          return new Promise((resolve, reject) => {
               axios.get("http" + state.server + "/user?username=" + state.userAccess.username, { headers: { Authorization: `Bearer ${state.userAccess.token}` } }).then(data => data.data)
                   .catch(error => {
                       console.log("Server Error");
-                      reject("Error");
+                      reject(new Error(error));
                       return Promise.reject();
                   })
                   .then(user => {
@@ -172,7 +184,18 @@ export default new Vuex.Store({
                               console.log('Error: ', message.data);
                               return;
                           }
-
+                      }
+                      //@ts-ignore
+                      request.onOpen = function(response){
+                        commit("setServerStatus", true);
+                      }
+                      //@ts-ignore
+                      request.onReconnect = function(response){
+                        console.log("reconnecting");
+                      }
+                        //@ts-ignore
+                      request.onError = function(response){
+                        commit("setServerStatus", false);
                       }
 
                       subSocket = socket.subscribe(request);
@@ -184,3 +207,26 @@ export default new Vuex.Store({
       }
   }
 })
+
+function signInWithGoogle(auth, commit){
+    return new Promise(function(resolve,reject){
+        let checkGauthLoad = setInterval(function () {
+            //@ts-ignore
+            var isInit = auth.isInit;
+            //@ts-ignore
+            var isSignIn = auth.isAuthorized;
+            if (isInit) {
+                clearInterval(checkGauthLoad);
+                //@ts-ignore
+                auth.signIn()
+                    .then(GoogleUser => {
+                        var access = { token: GoogleUser.Zi.access_token, username: GoogleUser.w3.ig };
+                        commit("setUserAccess", access);
+                        resolve();
+                    }).catch(error => {
+                        reject(error);
+                    });
+            }
+        }, 1000);
+    });
+}

@@ -9,6 +9,8 @@ import Finding from './components/Finding.vue'
 import Matched from './components/Matched.vue'
 import Battle from './views/Battle.vue'
 import EndMatch from './views/EndMatch.vue'
+import Error from './views/Error.vue'
+import { Vu } from '@/main'
 
 Vue.use(Router)
 
@@ -90,12 +92,19 @@ const router = new Router({
           components: {
               Main: EndMatch
           }
-      }
+      },
+      {
+        path: '/error',
+        name: 'error',
+        components: {
+            Main: Error
+        }
+    }
   ]
 })
 
 router.beforeEach((to, from, next) => {
-    if (to.path === "/") {
+    if (to.path === "/" || to.path === "/error") {
         next();
     } else {
         if (from.name == null) {

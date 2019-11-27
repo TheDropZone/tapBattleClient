@@ -11,7 +11,7 @@
 
 <script lang="ts">
     import Vue from 'vue';
-    import { Component } from 'vue-property-decorator';
+    import { Component, Watch } from 'vue-property-decorator';
     import HelloWorld from '@/components/HelloWorld.vue';
    
     
@@ -29,6 +29,14 @@ export default class App extends Vue {
         //@ts-ignore
         //this.$store.commit("signIn", this.$gAuth);
     }
+
+    @Watch('$store.state.serverStatus', { immediate: false, deep: true })
+        serverStatusChange(to, from) {
+            if (this.$store.state.serverStatus == false) {
+                console.log("Sending to error page");
+                this.$router.push("error");
+            }
+        }
 }
 
 </script>
@@ -47,11 +55,6 @@ export default class App extends Vue {
     .fade-enter {
         opacity:0;
         transform: scale(2);
-    }
-    .fade-enter-to{
-        
-    }
-    .fade-leave{
     }
     .fade-leave-active {
       opacity: 0
