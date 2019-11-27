@@ -14,8 +14,8 @@ export default new Vuex.Store({
         socket: null,
         user: null,
         oponent: null,
-        server: "://tapbattledeploy-env.vfkyw9rmik.us-east-1.elasticbeanstalk.com",
-        //server: "://localhost:5000",
+        //server: "://tapbattledeploy-env.vfkyw9rmik.us-east-1.elasticbeanstalk.com",
+        server: "://localhost:5000",
         battle: null,
         gameLength: -1,
         userAccess: null,
@@ -136,72 +136,20 @@ export default new Vuex.Store({
           return new Promise((resolve, reject) => {
               axios.get("http" + state.server + "/user?username=" + state.userAccess.username, { headers: { Authorization: `Bearer ${state.userAccess.token}` } }).then(data => data.data)
                   .catch(error => {
-                      console.log("Server Error");
-                      reject(new Error(error));
-                      return Promise.reject();
+                    console.log("Server Error");
+                    reject(new Error(error));
+                    return Promise.reject();
                   })
                   .then(user => {
-                      console.log(user);
-                      commit("setUser", user);
+                    console.log(user);
+                    commit("setUser", user);
 
-                      axios.get("http" + state.server + "/user/battles", { headers: { Authorization: `Bearer ${state.userAccess.token}` } }).then(data => data.data)
-                          .then(battles => console.log(battles));
+                    axios.get("http" + state.server + "/user/battles", { headers: { Authorization: `Bearer ${state.userAccess.token}` } }).then(data => data.data)
+                        .then(battles => console.log(battles));
 
-
-                      var socket = atmosphere;
-                      var subSocket;
-                      var request = {
-                          url: 'ws' + state.server + '/battle/connect',
-                          contentType: "application/json",
-                          logLevel: 'debug',
-                          enableProtocol: true,
-                          readResponsesHeaders: false,
-                          enableXDR: true,
-                          transport: 'websocket',
-                          fallbackTransport: 'long-polling',
-                      };
-                      //@ts-ignore
-                      request.onOpen = function (response) {
-                          var userMessage = {
-                              user: state.user,
-                              message: "",
-                              messageType: "REGISTER",
-                              battle: null
-                          };
-                          console.log(userMessage);
-                          subSocket.push(JSON.stringify(userMessage));
-                      };
-                      //@ts-ignore
-                      request.onMessage = function (response) {
-                          var message = response.responseBody;
-                          console.log(message);
-                          var json;
-                          try {
-                              var battle: Battle = JSON.parse(message);
-                              console.log(battle);
-                              commit("setBattle", battle);
-                          } catch (e) {
-                              console.log('Error: ', message.data);
-                              return;
-                          }
-                      }
-                      //@ts-ignore
-                      request.onOpen = function(response){
-                        commit("setServerStatus", true);
-                      }
-                      //@ts-ignore
-                      request.onReconnect = function(response){
-                        console.log("reconnecting");
-                      }
-                        //@ts-ignore
-                      request.onError = function(response){
-                        commit("setServerStatus", false);
-                      }
-
-                      subSocket = socket.subscribe(request);
-
-                      commit("setSocket", subSocket);
-                      resolve("Registered");
+                    registerSocket(state, commit);
+                    
+                    resolve("Registered");
                   });
           });
       }
@@ -229,4 +177,59 @@ function signInWithGoogle(auth, commit){
             }
         }, 1000);
     });
+}
+
+function registerSocket(state,commit){
+    var socket = atmosphere;
+    var subSocket;
+    var request = {
+        url: 'ws' + state.server + '/battle/connect',
+        contentType: "application/json",
+        logLevel: 'debug',
+        enableProtocol: true,
+        readResponsesHeaders: false,
+        enableXDR: true,
+        transport: 'websocket',
+        fallbackTransport: 'long-polling',
+    };
+    //@ts-ignore
+    request.onOpen = function (response) {
+        var userMessage = {
+            user: state.user,
+            message: "",
+            messageType: "REGISTER",
+            battle: null
+        };
+        console.log(userMessage);
+        subSocket.push(JSON.stringify(userMessage));
+        commit("setServerStatus", true);
+    };
+    //@ts-ignore
+    request.onMessage = function (response) {
+        var message = response.responseBody;
+        console.log(message);
+        var json;
+        try {
+            var battle: Battle = JSON.parse(message);
+            console.log(battle);
+            commit("setBattle", battle);
+        } catch (e) {
+            console.log('Error: ', message.data);
+            return;
+        }
+    }
+    //@ts-ignore
+    request.onReconnect = function(response){
+      console.log("reconnecting");
+    }
+      //@ts-ignore
+    request.onError = function(response){
+      commit("setServerStatus", false);
+      console.log("registerSocket: Lost Connection: Trying again in 5 seconds");
+      setTimeout(function(){registerSocket(state,commit);},5000);
+    }
+
+    subSocket = socket.subscribe(request);
+
+    commit("setSocket", subSocket);
 }
