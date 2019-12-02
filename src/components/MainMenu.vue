@@ -2,11 +2,11 @@
     <v-container>
         <v-row justify="center">
             <div class="SignIn-Box" style="margin-top: 10vh;">
-                <v-btn depressed class="SignIn-btn" color="#DD8E6D">
-                    <span class="SignIn-btn-text" @mousedown="startBattle" @touchstart.prevent="startBattle">Start a Battle</span>
+                <v-btn depressed class="SignIn-btn" color="#DD8E6D" @mousedown="startBattle" @touchstart.prevent="startBattle">
+                    <span class="SignIn-btn-text" >Start a Battle</span>
                 </v-btn>
-                <v-btn depressed class="SignIn-btn" color="#DD8E6D">
-                    <span class="SignIn-btn-text" @mousedown="viewProfile" @touchstart.prevent="viewProfile">View Profile</span>
+                <v-btn depressed class="SignIn-btn" color="#DD8E6D" @mousedown="viewProfile" @touchstart.prevent="viewProfile">
+                    <span class="SignIn-btn-text" >View Profile</span>
                 </v-btn>
             </div>
         </v-row>

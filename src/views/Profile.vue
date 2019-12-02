@@ -4,8 +4,8 @@
              <div class="Header-Name">{{userName}}</div>
              <div class="Header-Level">{{userLevel}}</div>
          </div>
-         <div class="Home-Header">
-             <div class="Home-Text" @mousedown="goHome">Go Home</div>
+         <div class="Home-Header" @mousedown="goHome" @touchstart.prevent="goHome">
+             <div class="Home-Text">Go Home</div>
          </div>
 
          <!-- Win/Loss Profile Data !-->

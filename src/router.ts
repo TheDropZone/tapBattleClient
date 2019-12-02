@@ -112,7 +112,7 @@ const router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
-    if (to.path === "/" || to.path === "/error" || to.path === "/profile") {
+    if (to.path === "/" || to.path === "/error") {
         next();
     } else {
         if (from.name == null) {
