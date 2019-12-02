@@ -23,8 +23,8 @@
                 </div>
             </div>
             <div class="Button-Container">
-                <div class="Button-Home" v-ripple @mousedown="goHome">HOME</div>
-                <div class="Button-Replay" v-ripple @mousedown="startBattle">
+                <div class="Button-Home" v-ripple @mousedown="goHome" @touchstart.prevent="goHome">HOME</div>
+                <div class="Button-Replay" v-ripple @mousedown="startBattle" @touchstart.prevent="startBattle">
                     <v-icon class="Replay-Icon">mdi-restart</v-icon>
                 </div>
             </div>

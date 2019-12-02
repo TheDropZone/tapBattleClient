@@ -7,7 +7,6 @@ import GAuth from 'vue-google-oauth2';
 import 'animate.css/animate.css';
 import VueCookies from 'vue-cookies';
 
-
 Vue.use(VueCookies);
 
 Vue.config.productionTip = false;

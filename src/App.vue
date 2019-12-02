@@ -1,5 +1,5 @@
 <template>
-    <v-app style="user-select: none; touch-action: manipulation;">
+    <v-app style="user-select: none; touch-action: manipulation;" id="app">
         <transition  
             name="fade" 
             class="Transition">
@@ -13,19 +13,21 @@
     import Vue from 'vue';
     import { Component, Watch } from 'vue-property-decorator';
     import HelloWorld from '@/components/HelloWorld.vue';
-   
+    import $ from 'jquery'
+
     
 
 @Component({
     components: {
         "HelloWorld": HelloWorld,
-    },
+    }
 })
 export default class App extends Vue {
     isInit = false;
     isSignIn = false;
 
     created() {
+
         //@ts-ignore
         if(window.webpackHotUpdate){
             this.$store.commit("setServer","://localhost:5000");

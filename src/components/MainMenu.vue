@@ -3,10 +3,10 @@
         <v-row justify="center">
             <div class="SignIn-Box" style="margin-top: 10vh;">
                 <v-btn depressed class="SignIn-btn" color="#DD8E6D">
-                    <span class="SignIn-btn-text" @mousedown="startBattle">Start a Battle</span>
+                    <span class="SignIn-btn-text" @mousedown="startBattle" @touchstart.prevent="startBattle">Start a Battle</span>
                 </v-btn>
                 <v-btn depressed class="SignIn-btn" color="#DD8E6D">
-                    <span class="SignIn-btn-text" @mousedown="viewProfile">View Profile</span>
+                    <span class="SignIn-btn-text" @mousedown="viewProfile" @touchstart.prevent="viewProfile">View Profile</span>
                 </v-btn>
             </div>
         </v-row>

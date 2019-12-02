@@ -3,9 +3,9 @@
         <v-row justify="center">
             <div class="SignIn-Box">
                 <div class="SignIn-Subheader"> Sign In with</div>
-                <v-btn depressed class="SignIn-btn" color="#DD8E6D">
+                <v-btn depressed class="SignIn-btn" color="#DD8E6D" @touchstart.prevent="googleSignIn" @mousedown="googleSignIn">  
                     <v-icon class="SignIn-btn-icon">mdi-google</v-icon>
-                    <span class="SignIn-btn-text" @mousedown="googleSignIn">Google</span>
+                    <span class="SignIn-btn-text" >Google</span>
                 </v-btn>
             </div>
         </v-row>
@@ -24,7 +24,8 @@
     export default class SignIn extends Vue {
         
 
-        googleSignIn() {
+        googleSignIn(event) {
+            console.log(event);
             //@ts-ignore
             this.$store.dispatch("signIn", this.$gAuth).then(output => {
                 console.log(output);
