@@ -8,7 +8,9 @@ export interface Battle {
     player2: User;
     player1Taps: number;
     player2Taps: number;
-    timestamp: Date;
+    timestamp: string;
     winner: User;
     timer: number;
+    totalTime: number;
+    date: Date;
 }

@@ -16,7 +16,7 @@
             </v-btn>
         </v-snackbar>
         <div class="Sheet-Container" :style="'transform: translateY(' + userSheet + 'px)'">
-            <div class="User-Sheet" v-ripple @click="sheetClick">
+            <div class="User-Sheet" v-ripple @mousedown="sheetClick">
                 <div class="User-Name">
                     {{username}}
                 </div>
@@ -70,8 +70,9 @@ import { Component, Watch } from 'vue-property-decorator';
             }
         }
 
-        @Watch('$route', { immediate: false, deep: true })
+        @Watch('$route', { immediate: true, deep: true })
         onRouteChange(to, from) {
+            console.log(to);
             if (to != null && from != null) {
                 if (to.name == "SignIn" && from.name == "SignInPending") {
                     this.slide = "slide-right";
@@ -79,12 +80,15 @@ import { Component, Watch } from 'vue-property-decorator';
                 } else {
                     this.slide = "slide-left";
                 }
-
-                if (to.name == "home") {
+            }
+            if(to != null){
+                if (to.name === "home") {
                     this.logoYOffset = "15vh";
                     this.userSheet = 25;
+                    
                 } else {
                     this.logoYOffset = "25vh";
+                    this.userSheet = 75;
                 }
             }
         }
@@ -96,11 +100,12 @@ import { Component, Watch } from 'vue-property-decorator';
     .Background{
         background: repeating-linear-gradient( 45deg, #F2EBBF, #F2EBBF 50px, #F2DDA7 50px, #F2DDA7 100px );
         padding: 7px 12px;
-        height: 100%;
+        height: calc(100%);
         position: absolute;
         top:0;
         left: 0;
         width: 100%;
+        overflow:hidden;
     }
 
     .slide-left-enter-active,

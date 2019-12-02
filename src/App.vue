@@ -1,5 +1,5 @@
 <template>
-    <v-app style="overflow: hidden;">
+    <v-app style="user-select: none; touch-action: manipulation;">
         <transition  
             name="fade" 
             class="Transition">

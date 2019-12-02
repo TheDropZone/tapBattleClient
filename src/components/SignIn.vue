@@ -5,7 +5,7 @@
                 <div class="SignIn-Subheader"> Sign In with</div>
                 <v-btn depressed class="SignIn-btn" color="#DD8E6D">
                     <v-icon class="SignIn-btn-icon">mdi-google</v-icon>
-                    <span class="SignIn-btn-text" @click="googleSignIn">Google</span>
+                    <span class="SignIn-btn-text" @mousedown="googleSignIn">Google</span>
                 </v-btn>
             </div>
         </v-row>

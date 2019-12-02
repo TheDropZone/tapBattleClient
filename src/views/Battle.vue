@@ -201,7 +201,7 @@ import Vue from 'vue';
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: calc(100%);
         display: inline-flex;
         justify-content: center;
         align-items: center;
@@ -231,6 +231,7 @@ import Vue from 'vue';
         overflow: hidden;
         position:relative;
         padding: 0;
+        overflow:hidden;
     }
 
     .Stripes{

@@ -23,8 +23,8 @@
                 </div>
             </div>
             <div class="Button-Container">
-                <div class="Button-Home" v-ripple @click="goHome">HOME</div>
-                <div class="Button-Replay" v-ripple @click="startBattle">
+                <div class="Button-Home" v-ripple @mousedown="goHome">HOME</div>
+                <div class="Button-Replay" v-ripple @mousedown="startBattle">
                     <v-icon class="Replay-Icon">mdi-restart</v-icon>
                 </div>
             </div>
@@ -150,11 +150,12 @@
     .Background{
         background: repeating-linear-gradient( 105deg, #8CBEB2, #8CBEB2 50px, #7EB0A4 50px, #7EB0A4 100px );
         padding: 7px 12px;
-        height: 100%;
+        height: calc(100%);
         position: absolute;
         top:0;
         left: 0;
         width: 100%;
+        overflow:hidden;
     }
 
         @import url('https://fonts.googleapis.com/css?family=Wendy+One&display=swap');

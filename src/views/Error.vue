@@ -49,6 +49,7 @@
         top:0;
         left: 0;
         width: 100%;
+        overflow:hidden;
     }
 
     @import url('https://fonts.googleapis.com/css?family=Wendy+One&display=swap');

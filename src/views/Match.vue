@@ -225,6 +225,7 @@
         top:0;
         left: 0;
         width: 100%;
+        overflow:hidden;
     }
     .Speaker-Image{
         width: 75%;

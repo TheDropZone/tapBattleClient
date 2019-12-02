@@ -18,7 +18,8 @@ export default new Vuex.Store({
         battle: null,
         gameLength: -1,
         userAccess: null,
-        serverStatus: true
+        serverStatus: true,
+        userBattles: []
   },
   mutations: {
       startBattle(state) {
@@ -73,7 +74,10 @@ export default new Vuex.Store({
       },   
       setServer(state, server) {
         Vue.set(state, "server", server);
-      } 
+      },
+      setUserBattles(state, battles: Battle[]){
+          Vue.set(state, "userBattles",battles);
+      }
   },
   actions: {
       battleTap({ commit, dispatch, state }) {
@@ -99,6 +103,7 @@ export default new Vuex.Store({
                     .then(() => {
                         dispatch("getUser").then(t => {
                             console.log("No Cookie: Google sign In: getUser" + t);
+                            registerSocket(state, commit);
                             resolve(t);
                         }).catch(error => {
                             console.log("No Cookie: Google sign In: getUser " + error);
@@ -113,6 +118,7 @@ export default new Vuex.Store({
                   dispatch("getUser")
                     .then(t => {
                             console.log("Cookie: Google sign In: " + t);
+                            registerSocket(state, commit);
                             resolve(t);
                     })
                     .catch(error => {
@@ -123,6 +129,7 @@ export default new Vuex.Store({
                             signInWithGoogle(auth,commit).then(() => {
                                 dispatch("getUser").then(t => {
                                     console.log("Cookie: Failed: Google Sign in: " + t);
+                                    registerSocket(state, commit);
                                     resolve(t);
                                 }).catch(error => {
                                     console.log("Cookie: Failed: Google Sign in: " + error);
@@ -145,15 +152,19 @@ export default new Vuex.Store({
                   .then(user => {
                     console.log(user);
                     commit("setUser", user);
-
-                    axios.get("http" + state.server + "/user/battles", { headers: { Authorization: `Bearer ${state.userAccess.token}` } }).then(data => data.data)
-                        .then(battles => console.log(battles));
-
-                    registerSocket(state, commit);
-                    
                     resolve("Registered");
                   });
           });
+      },
+      getUserBattles({commit, dispatch,state}){
+        return new Promise((resolve, reject) => {
+            axios.get("http" + state.server + "/user/battles", { headers: { Authorization: `Bearer ${state.userAccess.token}` } })
+                 .then(data => data.data)
+                 .then(battles => {
+                    commit("setUserBattles", battles);
+                 })
+                 .catch(error => reject(error));
+        });
       }
   }
 })
