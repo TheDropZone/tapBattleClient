@@ -174,6 +174,7 @@ function signInWithGoogle(auth, commit){
         let checkGauthLoad = setInterval(function () {
             //@ts-ignore
             var isInit = auth.isInit;
+            console.log(auth);
             //@ts-ignore
             var isSignIn = auth.isAuthorized;
             if (isInit) {
@@ -181,7 +182,9 @@ function signInWithGoogle(auth, commit){
                 //@ts-ignore
                 auth.signIn()
                     .then(GoogleUser => {
-                        var access = { token: GoogleUser.Zi.access_token, username: GoogleUser.w3.ig };
+                        var authResponse = GoogleUser.getAuthResponse();
+                        var basicProfile = GoogleUser.getBasicProfile();
+                        var access = { token: authResponse.access_token, username: basicProfile.getName() };
                         commit("setUserAccess", access);
                         resolve();
                     }).catch(error => {

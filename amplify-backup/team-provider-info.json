@@ -1,0 +1,14 @@
+{
+    "tabbattle": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tabbattleclient-tabbattle-152649-authRole",
+            "UnauthRoleArn": "arn:aws:iam::023037056444:role/amplify-tabbattleclient-tabbattle-152649-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::023037056444:role/amplify-tabbattleclient-tabbattle-152649-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-tabbattleclient-tabbattle-152649-deployment",
+            "UnauthRoleName": "amplify-tabbattleclient-tabbattle-152649-unauthRole",
+            "StackName": "amplify-tabbattleclient-tabbattle-152649",
+            "StackId": "arn:aws:cloudformation:us-east-1:023037056444:stack/amplify-tabbattleclient-tabbattle-152649/96d0d890-04c1-11ea-b585-129cd46a326a"
+        }
+    }
+}
